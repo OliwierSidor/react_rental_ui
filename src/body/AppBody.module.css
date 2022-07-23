@@ -1,0 +1,8 @@
+.AppBody {
+    background-color: var(--body);
+    width: calc(80vw - 8px);
+    min-height: calc(100vh - 48px - 4px - 4px - 24px - 8px - 36px);
+    margin: 4px auto 36px;
+    padding: 4px;
+    max-width: 960px;
+}

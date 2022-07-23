@@ -1,0 +1,23 @@
+:root {
+    --background: white;
+    --header: #006394;
+    --footer: #006394;
+    --body: #1592d9;
+    --button-color: #64c2f6;
+    --card-color: #white;
+    --border-color: #111111;
+    --from-fields-color: white;
+    --button-clear-color: #5599be;
+    --button-submit-color: #5599be;
+    --font-color-button-clear: white;
+    --font-color-button-submit: white;
+}
+
+html {
+    background-color: var(--background);
+}
+
+
+.App {
+    text-align: center;
+}

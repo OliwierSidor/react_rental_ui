@@ -1,0 +1,38 @@
+.CarForm {
+
+}
+
+.FormItem {
+padding: 8px;
+}
+
+.FormItem div {
+    width: 100%;
+    background-color: var(--from-fields-color);
+}
+
+.FormItem div input{
+    background-color: var(--from-fields-color);
+}
+
+.FormButtonPanel{
+    margin: 16px 8px;
+    border-top: 1px solid black;
+}
+.FormButtonPanel div{
+    margin-top: 4px;
+
+}
+
+.FormButtonClear{
+    width: 80%;
+    background-color: var(--button-clear-color) !important;
+    color: var(--font-color-button-clear) !important;
+}
+.FormButtonSubmit{
+    padding: 8px;
+    width: 80%;
+    background-color: var(--button-submit-color) !important;
+    color: var(--font-color-button-submit) !important;
+
+}

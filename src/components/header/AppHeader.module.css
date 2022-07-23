@@ -1,0 +1,71 @@
+.AppHeader {
+    background-color: var(--header);
+    height: 48px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    max-width: 968px;
+    color: white;
+
+}
+
+.HeaderLeft {
+    height: 100%;
+    margin-left: 8px;
+
+}
+
+.HeaderLeft p {
+    margin: calc(48px / 2 - 27px / 2) 0 0 0;
+    padding: 2px;
+
+}
+
+.HeaderRight {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    color: white;
+
+}
+
+.HeaderRight a {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding-right: 24px;
+
+}
+
+
+.HeaderRight div {
+    background-color: var(--button-color);
+    height: 50%;
+    align-items: center;
+    margin: 0 4px;
+    min-width:  64px;
+    color: white;
+
+}
+.HeaderRight div a {
+    background-color: var(--button-color);
+    height: 50%;
+    align-items: center;
+    margin: 0 4px;
+    min-width:  64px;
+    border:  2px solid var(--button-color);
+    color: white;
+    transition: 1s border;
+}
+.HeaderRight a div:hover{
+    border: 2px solid white;
+}
+
+.MenuButton{
+    width: 100px;
+    height: 25px;
+    background-color: var(--button-submit-color) !important;
+    color: var(--font-color-button-submit) !important;
+}

@@ -1,0 +1,13 @@
+.CardContainer{
+    background-color: var(--card-color);
+    margin: 0 8px;
+}
+.CardHeader {
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+    padding: 4px 0;
+}
+.CardBody {
+    margin: 4px;
+    padding: 4px 0;
+}
